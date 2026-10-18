@@ -1,0 +1,9 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.pytest_tmp/
+
+# Regenerable training artifacts (the final model and all results are kept)
+models/checkpoints/
+models/ablations/
